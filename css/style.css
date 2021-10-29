@@ -1284,7 +1284,7 @@ h3 {
 .experience {
   border-left: 2px solid#aa80ff;
   padding: 0px 30px;
-  margin-left: 19vh;
+  margin-left: 40%;
   font-size: 1rem;
 }
 @media (max-width: 767px) {
@@ -1302,12 +1302,12 @@ h3 {
 
   content: "";
   position: absolute;
-  left: -45px;
+  left: -38px;
   top: -2px;
-  width: 22px;
-  height: 22px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  border: 2px solid#aa80ff;
+  border: 7px solid#aa80ff;
 }
 .experience .item::after {
   
@@ -1325,14 +1325,14 @@ h3 {
 .experience .location {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 4.3em;
 }
 .experience .location .fa {
   margin-right: 8px;
 }
 .experience .job-info {
   position: absolute;
-  left: -200px;
+  left: -230px;
   top: 0;
 }
 .experience .job-info .title {
@@ -1353,6 +1353,9 @@ h3 {
 @media only screen and (max-width: 600px) {
 .profile {
     width: 100%;
+  }
+  .location{
+    display: none;
   }
 }
 

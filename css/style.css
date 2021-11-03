@@ -1559,15 +1559,15 @@ h3 {
   align-items: space-between;
   align-self: stretch;
   justify-self: stretch;
-  margin-bottom: 30px;
-  padding: 30px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
   background: transparent;
   overflow: hidden;
   box-shadow: 5px 5px 15px rgba(96, 37, 102, 0.5);
   border-radius: 10px;
 }
 .card svg {
-  width: 100%;
+  width: 80%;
   padding: 10px;
 }
 .card h2 {
